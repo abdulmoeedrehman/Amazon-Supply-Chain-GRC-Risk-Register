@@ -49,7 +49,12 @@ The register's 8 Govern-mapped risks (`GV-001` through `GV-008`) address the CSF
 2. **`Risk Register Dashboard.pbix`**: The Power BI file containing the interactive data models, color-mapped visualizations, and detailed drill-down matrices.
 3. 3. **`NIST-CSF-Gap-Assessment.md`** — Maturity scoring (current vs. target tier) per NIST CSF 2.0 function, with a phased remediation roadmap.
 
+### Control Testing Summary
+
+Of the 5 controls tested: 1 fully effective, 1 effective with a noted exception, 1 partially effective, and 2 ineffective — including a finding that a compensating control (password complexity) does not adequately substitute for missing MFA on a PII-handling system, and a finding that backups were never validated as restorable. Full detail is in the `Control_Testing_Log` tab.
+
 ## How to Use This Project
 1. **Operational Tracking:** Open the Excel file to add, modify, or update risks. Use the built-in dropdowns to modify `Status` or adjust `Likelihood/Impact` values as mitigations take effect.
 2. **Executive Reporting:** Open the Power BI file and click **Refresh** to instantly pull the new Excel data into the interactive charts for C-suite presentations.
 3. **Gap Assessment:** Reference `NIST-CSF-Gap-Assessment.md` for the current maturity posture and remediation sequencing.
+4. 4. **Audit Evidence:** Reference the `Control_Testing_Log` tab for control-testing methodology and findings.
