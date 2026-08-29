@@ -34,11 +34,22 @@ To ensure comprehensive governance, every single risk follows a strict structure
 ## Dashboard Preview
 <img width="701" height="377" alt="image" src="https://github.com/user-attachments/assets/28f06888-92eb-47d0-9b03-b36110135345" />
 
+### Risk Documentation Structure
+
+To ensure comprehensive governance, every risk follows a strict structure: `Cause (Root Condition) ➔ Event (Threat Action) ➔ Business Impact (Operational Consequence)`, along with Existing Controls, Control Gaps, Mitigation Plan, Owner, Due Date, and Status.
+
+### Governance (Govern) Coverage
+
+The register's 8 Govern-mapped risks (`GV-001` through `GV-008`) address the CSF 2.0 Govern subcategories directly: risk management strategy (GV.RM), roles/responsibilities/authorities (GV.RR), policy (GV.PO), oversight (GV.OV), organizational context (GV.OC), and cybersecurity supply chain risk management (GV.SC). See `NIST-CSF-Gap-Assessment.md` for the full maturity assessment these risks feed into.
+
+
 
 ## Repository Files
 1. **`Amazon_Supply Chain GRC Risk Register.xlsx`**: The master data source containing the 50 detailed risk lines, data validation dropdowns, and an automated summary tab.
 2. **`Risk Register Dashboard.pbix`**: The Power BI file containing the interactive data models, color-mapped visualizations, and detailed drill-down matrices.
+3. 3. **`NIST-CSF-Gap-Assessment.md`** — Maturity scoring (current vs. target tier) per NIST CSF 2.0 function, with a phased remediation roadmap.
 
 ## How to Use This Project
 1. **Operational Tracking:** Open the Excel file to add, modify, or update risks. Use the built-in dropdowns to modify `Status` or adjust `Likelihood/Impact` values as mitigations take effect.
 2. **Executive Reporting:** Open the Power BI file and click **Refresh** to instantly pull the new Excel data into the interactive charts for C-suite presentations.
+3. **Gap Assessment:** Reference `NIST-CSF-Gap-Assessment.md` for the current maturity posture and remediation sequencing.
